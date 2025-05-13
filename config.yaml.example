@@ -1,0 +1,23 @@
+# Configuration générale
+api:
+  key: your_api_key_here
+  timeout: 30
+  retries: 3
+
+# Configuration des sources
+sources:
+  enabled: true
+  max_sources: 10
+  min_relevance: 0.7
+
+# Configuration des questions
+questions:
+  max_length: 200
+  min_answers: 3
+
+# Chemins de fichiers
+paths:
+  data_dir: data
+  log_dir: logs
+  sources_file: sources_combinees_par_question.csv
+  questions_file: questions.json
